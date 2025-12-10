@@ -3,10 +3,37 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+.decorative-rec::after {
+  content: "";
+  transform: none; /* Сбрасываем преобразование */
+  margin-left: 0; /* Сбрасываем отступ */
+  display: block;
+}
+
+.decorative-rec {
+  display: none;
+}
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --current-bg: var(--light-bg);
+  --dec-color-br: #353430;
+  --color-tx-button: #353430;
+  --outline-button-active: #353430;
+  --outline-button-hover: #32312d66;
+  --color-h1: #ffc2e6;
+  --text-shadow-h1: #ff8dcb;
+  --color-h2-bc: #353430;
+  --color-h2: #353430;
+  --bc-h2: #ff8dcb;
+  --color-p: #353430;
+  --color-p-bc: #353430;
+  --bc-p: #ff8dcb;;
+  --text-link: #353430;
+  --text-sh-link: #ff8dcb;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --current-bg: var(--light-bg);
+  }
 }
