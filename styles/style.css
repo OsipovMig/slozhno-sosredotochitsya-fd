@@ -149,13 +149,11 @@
   justify-self: end; /* Только для этого элемента */
   line-height: var(--line-height-p);
   align-self: center;
-  padding-block-end: 58px;
+  margin-block-end: 20px;
 }
 
 .header_content_heading {
-  display: grid;
   background-color: var(--bc-h2);
-  grid-template-columns: auto;
   color: var(--color-h2-bc);
   font-family: var(--main-fonts), "Roboto Mono", Consolas, Menlo;
   font-weight: bold;
@@ -253,37 +251,31 @@
 .grid_item_recommendations_list {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
-  padding-inline-start: 6px;
 }
 
 .grid_item_recommendations_meditation {
   grid-column: 2 / 4;
   grid-row: 2 / 3;
-  padding-inline-start: 6px;
 }
 
 .grid_item_recommendations_music {
   grid-column: 2 / 4;
   grid-row: 3 / 4;
-  padding-inline-start: 6px;
 }
 
 .grid_item_recommendations_walk {
   grid-column: 2 / 4;
   grid-row: 4 / 5;
-  padding-inline-start: 6px;
 }
 
 .grid_item_recommendations_food {
   grid-column: 2 / 4;
   grid-row: 5 / 6;
-  padding-inline-start: 6px;
 }
 
 .grid_item_recommendations_read {
   grid-column: 2 / 4;
   grid-row: 6 / 7;
-  padding-inline-start: 6px;
 }
 
 .section_images {
@@ -384,11 +376,33 @@
     grid-column: 1 / 3;
     justify-self: end;
     align-self: center;
-    margin-block-start: 0;
+    margin-block-start: 20px;
   }
   .header__theme-menu-list {
     display: grid;
     grid-auto-flow: row;
+    gap: 12px;
+  }
+  .grid_item_multitasking {
+    margin-inline-start: 6px;
+  }
+  .grid_item_dopamine {
+    margin-inline-start: 6px;
+  }
+  .grid_item_recommendations_list {
+    margin-inline-start: 6px;
+  }
+  .grid_item_recommendations_music {
+    margin-inline-start: 6px;
+  }
+  .grid_item_recommendations_walk {
+    margin-inline-start: 6px;
+  }
+  .grid_item_recommendations_food {
+    margin-inline-start: 6px;
+  }
+  .grid_item_recommendations_read {
+    margin-inline-start: 6px;
   }
   .grid_item_more {
     grid-column: 1 / -1;
@@ -417,7 +431,10 @@
   }
   .header_heading-text {
     grid-column: 1 / -1;
-    padding-block-end: 40px;
+    padding-block-start: 8px;
+  }
+  .header__theme-menu {
+    margin-block-start: 0px;
   }
   .header__theme-menu-list {
     gap: 10px;
@@ -444,10 +461,12 @@
   .grid_item_multitasking {
     grid-row: 2;
     grid-column: 1;
+    margin-inline-start: 0px;
   }
   .grid_item_dopamine {
     grid-row: 3;
     grid-column: 1;
+    margin-inline-start: 0px;
   }
   .concentration {
     grid-template-columns: 1fr;
@@ -468,36 +487,42 @@
     grid-column: 1;
     grid-row: 2;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .grid_item_recommendations_meditation {
     grid-column: 1;
     grid-row: 3;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .grid_item_recommendations_music {
     grid-column: 1;
     grid-row: 4;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .grid_item_recommendations_walk {
     grid-column: 1;
     grid-row: 5;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .grid_item_recommendations_food {
     grid-column: 1;
     grid-row: 6;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .grid_item_recommendations_read {
     grid-column: 1;
     grid-row: 7;
     padding-inline-start: 0px;
+    margin-inline-start: 0px;
   }
 
   .section_images {
