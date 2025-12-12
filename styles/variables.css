@@ -3,17 +3,23 @@
   и их переопределение под различные устройства
 */
 :root {
-  --dark-bc: #000028;
+}
+
+:root {
+  --light-bg: url("../images/cover-image-light.png"); /* Путь к светлому фону */
+  --dark-bg: url("../images/cover-image-dark.png"); /* Путь к тёмному фону */
+  --current-bg: var(--dark-bg); /* Текущая тема по умолчанию */
+  --main-bc: #000028;
   --dec-cl: #ff0070;
   --dec-color-br: #ff0070;
   --color-tx-button: #ff0070;
   --outline-button-active: #ff0070;
   --outline-button-hover: #ff007066;
-  --color-h1: #db00ff;
-  --text-shadow-h1: #ff0070;
-  --bc-h2: #ff0070;
-  --color-h2-bc: #000028;
-  --color-h2: #ff0070;
+  --color-main-title: #db00ff;
+  --text-shadow-main-title1: #ff0070;
+  --bc-title: #ff0070;
+  --color-title-bc: #000028;
+  --color-title: #ff0070;
   --color-p: #f1b2ce;
   --color-p-bc: #000028;
   --bc-p: #ff0070;
