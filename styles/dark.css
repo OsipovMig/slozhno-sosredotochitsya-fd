@@ -3,6 +3,9 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+.decorative-rec {
+  display: block;
+}
 
 :root.theme-dark {
   --current-bg: var(--dark-bg);
