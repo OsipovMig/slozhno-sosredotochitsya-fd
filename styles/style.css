@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .page {
@@ -85,7 +84,6 @@
   display: grid;
   grid-auto-flow: column;
   gap: 15px;
-  list-style: none;
 }
 
 .header__theme-menu-button {
@@ -157,7 +155,7 @@
 .grid_item,
 .section_focus > :not(.grid_item_focus) {
   grid-column: 2 / 4; /* Вторая и третья колонки */
-  grid-row: auto; /* Автоматическое размещение по строкам */
+  grid-row: auto;
 }
 
 .heading_content {
@@ -191,7 +189,6 @@
 .grid_item_var,
 .section_concentration > div:not(.grid_item_concentration) {
   grid-column: auto; /* Автоматическое присвоение колонок */
-  grid-row-start: 2;
   grid-row: auto; /* Автоматическое назначение строк */
 }
 
