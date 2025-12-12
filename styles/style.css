@@ -28,6 +28,7 @@
 }
 
 .decorative-rec {
+  display: var(--hidden-element);
   position: absolute;
   order: -1;
   top: 20px;

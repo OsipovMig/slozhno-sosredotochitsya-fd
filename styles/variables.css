@@ -2,6 +2,9 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+/* .decorative-rec {
+  display: block;
+} */
 
 :root {
   --light-bg: url("../images/cover-image-light.png"); /* Путь к светлому фону */
@@ -23,4 +26,5 @@
   --bc-p: #ff0070;
   --text-link: #f1b2ce;
   --text-sh-link: #ff0070;
+  --hidden-element: block;
 }

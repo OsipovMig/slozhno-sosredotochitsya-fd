@@ -4,12 +4,9 @@
   переключая тему
 */
 
-.decorative-rec {
-  display: none;
-}
-
 :root.theme-light {
   --current-bg: var(--light-bg);
+  --hidden-element: none;
   --main-bc: #fff1f7;
   --dec-color-br: #353430;
   --color-tx-button: #353430;
@@ -29,6 +26,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --current-bg: var(--light-bg);
+    --hidden-element: none;
     --dec-color-br: #353430;
     --main-bc: #fff1f7;
     --color-tx-button: #353430;
