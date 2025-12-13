@@ -20,7 +20,9 @@
   --color-p: #353430;
   --color-p-bc: #353430;
   --bc-p: #ff8dcb;
-  --text-sh-link: #353430;
+  --text-link: #353430;
+  --text-sh-link: #ff8dcb;
+  --link-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,6 +42,8 @@
     --color-p: #353430;
     --color-p-bc: #353430;
     --bc-p: #ff8dcb;
-    --text-sh-link: #353430;
+    --text-link: #353430;
+    --text-sh-link: #ff8dcb;
+    --link-color: #353430;
   }
 }
